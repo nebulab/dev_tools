@@ -19,7 +19,7 @@ ready to use, the tool presents in this repo are:
 * [**Pulsar**][pulsar] the easy Capistrano deploy and configuration manager.
 * [**Rubocop**][rubocop] for static code analyzer.
 
-It also configure [**Letter Opener**][letter_opener] in development environment.
+It also [configure Letter Opener][letter_opener_conf] in development environment.
 
 ## Usage
 
@@ -56,3 +56,4 @@ And then execute:
 [invoker]:            https://github.com/code-mancers/invoker
 [pulsar]:             https://github.com/nebulab/pulsar
 [rubocop]:            https://github.com/bbatsov/rubocop
+[letter_opener_conf]: https://github.com/nebulab/dev_tools/blob/master/lib/dev_tools/railtie.rb#L20
