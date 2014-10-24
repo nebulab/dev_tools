@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["alessiorocco@nebulab.it"]
   spec.summary       = %q{Developer tools used in nebulab}
   spec.description   = %q{Developer tools used in nebulab}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/nebulab/dev_tools"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
