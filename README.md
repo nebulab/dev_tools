@@ -44,3 +44,15 @@ And then execute:
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+[pry]:                http://pry.github.com
+[awesome_print]:      https://github.com/michaeldv/awesome_print
+[pry-rails]:          https://github.com/rweng/pry-rails
+[pry-doc]:            https://github.com/pry/pry-doc
+[pry-byebug]:         https://github.com/deivid-rodriguez/pry-byebug
+[better_errors]:      https://github.com/charliesome/better_errors
+[letter_opener]:      https://github.com/ryanb/letter_opener
+[dotenv-rails]:       https://github.com/bkeepers/dotenv
+[invoker]:            https://github.com/code-mancers/invoker
+[pulsar]:             https://github.com/nebulab/pulsar
+[rubocop]:            https://github.com/bbatsov/rubocop
