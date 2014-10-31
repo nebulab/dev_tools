@@ -19,6 +19,8 @@ module DevTools
     config.action_mailer.delivery_method = :letter_opener if Rails.env.development?
 
     initializer 'dev_tools.initialize' do |app|
+      Pry.config.should_load_rc = false
+
       Pry.config.prompt_name = "\001\e[1;32m\002#{Rails.application.class.parent_name.downcase}\001\e[0m\002/\001\e[1;31m\002#{Rails.env.downcase}"
 
       Pry.prompt = [
