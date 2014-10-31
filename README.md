@@ -1,8 +1,8 @@
 # Dev Tools
 
-Boring to add commons development gems to our projects Gemfile we decide to
-create this repo to include just it to have our favourite development tools
-ready to use, the tool presents in this repo are:
+It's boring to add common development gems to our projects' Gemfile so we decided to
+create this gem to include all of our favourite development tools
+ready to use, the tools in this repo are:
 
 * [**Pry**][pry] for a powerful shell alternative to IRB.
 * [**Pry Rails**][pry-rails] for additional commands (`show-routes`,
@@ -19,7 +19,7 @@ ready to use, the tool presents in this repo are:
 * [**Pulsar**][pulsar] the easy Capistrano deploy and configuration manager.
 * [**Rubocop**][rubocop] for static code analyzer.
 
-It also [configure Letter Opener][letter_opener_conf] in development environment.
+It also [configures Letter Opener][letter_opener_conf] in development environment.
 
 ## Usage
 
