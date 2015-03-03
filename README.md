@@ -18,6 +18,7 @@ ready to use, the tools in this repo are:
 * [**Invoker**][invoker] for managing processes in development environment.
 * [**Pulsar**][pulsar] the easy Capistrano deploy and configuration manager.
 * [**Rubocop**][rubocop] for static code analyzer.
+* [**Quiet Assets**][quiet_assets] for turns off the Rails asset pipeline log.
 
 It also [configures Letter Opener][letter_opener_conf] in development environment.
 
@@ -57,3 +58,4 @@ And then execute:
 [pulsar]:             https://github.com/nebulab/pulsar
 [rubocop]:            https://github.com/bbatsov/rubocop
 [letter_opener_conf]: https://github.com/nebulab/dev_tools/blob/master/lib/dev_tools/railtie.rb#L20
+[quiet_assets]:       https://github.com/evrone/quiet_assets

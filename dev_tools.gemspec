@@ -29,6 +29,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'binding_of_caller'
   spec.add_runtime_dependency 'letter_opener'
   spec.add_runtime_dependency 'dotenv-rails'
+  spec.add_runtime_dependency 'quiet_assets'
 
   # Gems that don't need to be required by rails application
   spec.add_runtime_dependency 'rubocop'

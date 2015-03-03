@@ -3,8 +3,8 @@ require 'pry-rails'
 require 'pry-doc'
 require 'pry-byebug'
 require 'awesome_print'
-# Disable while we find a fix for an ugly startup bug...
-# require 'dotenv-rails'
+require 'dotenv-rails'
+require 'quiet_assets'
 
 if Rails.env.development?
   require 'better_errors'
