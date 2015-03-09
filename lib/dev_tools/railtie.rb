@@ -3,7 +3,7 @@ require 'pry-rails'
 require 'pry-doc'
 require 'pry-byebug'
 require 'awesome_print'
-require 'dotenv-rails'
+require 'dotenv'
 require 'quiet_assets'
 
 if Rails.env.development?
