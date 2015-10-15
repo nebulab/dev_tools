@@ -13,8 +13,6 @@ ready to use, the tools in this repo are:
   console.
 * [**Better Errors**][better_errors] for better Rails error page.
 * [**Letter Opener**][letter_opener] for preview email in the browser.
-* [**Dotenv**][dotenv-rails] to load environment variables from .env into ENV in
-  development.
 * [**Invoker**][invoker] for managing processes in development environment.
 * [**Pulsar**][pulsar] the easy Capistrano deploy and configuration manager.
 * [**Rubocop**][rubocop] for static code analyzer.
