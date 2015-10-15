@@ -3,9 +3,9 @@ require 'pry-rails'
 require 'pry-doc'
 require 'pry-byebug'
 require 'awesome_print'
-require 'quiet_assets'
 
 if Rails.env.development?
+  require 'quiet_assets'
   require 'better_errors'
   require 'binding_of_caller'
   require 'letter_opener'
