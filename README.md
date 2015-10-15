@@ -51,7 +51,6 @@ And then execute:
 [pry-byebug]:         https://github.com/deivid-rodriguez/pry-byebug
 [better_errors]:      https://github.com/charliesome/better_errors
 [letter_opener]:      https://github.com/ryanb/letter_opener
-[dotenv-rails]:       https://github.com/bkeepers/dotenv
 [invoker]:            https://github.com/code-mancers/invoker
 [pulsar]:             https://github.com/nebulab/pulsar
 [rubocop]:            https://github.com/bbatsov/rubocop
