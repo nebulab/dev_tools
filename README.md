@@ -14,9 +14,8 @@ ready to use, the tools in this repo are:
 * [**Better Errors**][better_errors] for better Rails error page.
 * [**Letter Opener**][letter_opener] for preview email in the browser.
 * [**Invoker**][invoker] for managing processes in development environment.
-* [**Pulsar**][pulsar] the easy Capistrano deploy and configuration manager.
 * [**Rubocop**][rubocop] for static code analyzer.
-* [**Quiet Assets**][quiet_assets] for turns off the Rails asset pipeline log.
+* [**Dotenv**][dotenv] for managing environment variables.
 
 It also [configures Letter Opener][letter_opener_conf] in development environment.
 
@@ -51,8 +50,7 @@ And then execute:
 [pry-byebug]:         https://github.com/deivid-rodriguez/pry-byebug
 [better_errors]:      https://github.com/charliesome/better_errors
 [letter_opener]:      https://github.com/ryanb/letter_opener
-[invoker]:            https://github.com/code-mancers/invoker
-[pulsar]:             https://github.com/nebulab/pulsar
 [rubocop]:            https://github.com/bbatsov/rubocop
 [letter_opener_conf]: https://github.com/nebulab/dev_tools/blob/master/lib/dev_tools/railtie.rb#L20
-[quiet_assets]:       https://github.com/evrone/quiet_assets
+[invoker]:            https://github.com/code-mancers/invoker
+[dotenv]:             https://github.com/bkeepers/dotenv

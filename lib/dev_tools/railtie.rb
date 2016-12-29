@@ -5,10 +5,13 @@ require 'pry-byebug'
 require 'awesome_print'
 
 if Rails.env.development?
-  require 'quiet_assets'
   require 'better_errors'
   require 'binding_of_caller'
   require 'letter_opener'
+end
+
+if Rails.env.development? || Rails.env.test?
+  require 'dotenv-rails'
 end
 
 AwesomePrint.pry!
