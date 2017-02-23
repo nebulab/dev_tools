@@ -5,8 +5,6 @@ require 'pry-byebug'
 require 'awesome_print'
 
 if Rails.env.development?
-  require 'better_errors'
-  require 'binding_of_caller'
   require 'letter_opener'
 end
 
