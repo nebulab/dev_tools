@@ -11,7 +11,6 @@ ready to use, the tools in this repo are:
 * [**Awesome Print**][awesome_print] for stylish pretty print.
 * [**Pry Doc**][pry-doc] to browse Ruby source, including C, directly from the
   console.
-* [**Better Errors**][better_errors] for better Rails error page.
 * [**Letter Opener**][letter_opener] for preview email in the browser.
 * [**Invoker**][invoker] for managing processes in development environment.
 * [**Rubocop**][rubocop] for static code analyzer.
@@ -48,7 +47,6 @@ And then execute:
 [pry-rails]:          https://github.com/rweng/pry-rails
 [pry-doc]:            https://github.com/pry/pry-doc
 [pry-byebug]:         https://github.com/deivid-rodriguez/pry-byebug
-[better_errors]:      https://github.com/charliesome/better_errors
 [letter_opener]:      https://github.com/ryanb/letter_opener
 [rubocop]:            https://github.com/bbatsov/rubocop
 [letter_opener_conf]: https://github.com/nebulab/dev_tools/blob/master/lib/dev_tools/railtie.rb#L20
