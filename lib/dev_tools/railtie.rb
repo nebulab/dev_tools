@@ -21,7 +21,13 @@ module DevTools
     initializer 'dev_tools.initialize' do |app|
       Pry.config.should_load_rc = false
 
-      Pry.config.prompt_name = "\001\e[1;32m\002#{Rails.application.class.parent_name.downcase}\001\e[0m\002/\001\e[1;31m\002#{Rails.env.downcase}"
+      parent_name = if Rails::VERSION::MAJOR >= 6
+                      Rails.application.class.module_parent_name
+                    else
+                      Rails.application.class.parent_name
+                    end
+
+      Pry.config.prompt_name = "\001\e[1;32m\002#{parent_name.downcase}\001\e[0m\002/\001\e[1;31m\002#{Rails.env.downcase}"
 
       Pry.prompt = [
         proc { |target_self, nest_level, pry|
